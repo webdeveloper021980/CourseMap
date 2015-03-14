@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>03/12/2015 03:09:52</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>03/12/2015 03:10:02</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>03/12/2015 03:10:07</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>03/12/2015 03:10:10</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.UI.Combined.dll">
+      <publishTime>03/12/2015 03:10:06</publishTime>
+    </File>
+    <File Include="bin/BPOrgDiagram.dll">
+      <publishTime>03/13/2015 02:32:41</publishTime>
+    </File>
+    <File Include="bin/CourseMapWeb.dll">
+      <publishTime>03/13/2015 10:23:36</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:52</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.AspNet.dll">
+      <publishTime>03/12/2015 03:10:09</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.Core.dll">
+      <publishTime>03/12/2015 03:10:09</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.Consumer.dll">
+      <publishTime>03/12/2015 03:10:02</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OAuth.dll">
+      <publishTime>03/12/2015 03:10:01</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.dll">
+      <publishTime>03/12/2015 03:09:45</publishTime>
+    </File>
+    <File Include="bin/DotNetOpenAuth.OpenId.RelyingParty.dll">
+      <publishTime>03/12/2015 03:09:45</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/12/2015 03:10:05</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:52</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:52</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>03/12/2015 03:10:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Membership.OpenAuth.dll">
+      <publishTime>03/12/2015 03:10:09</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>03/12/2015 03:10:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>03/12/2015 03:10:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>03/12/2015 03:10:03</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/12/2015 03:10:06</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>03/12/2015 03:10:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>03/12/2015 03:10:07</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:52</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>03/12/2015 03:10:07</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>03/12/2015 03:09:51</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>03/12/2015 03:09:38</publishTime>
+    </File>
+    <File Include="Content/CourseMapPopup.aspx">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Content/CourseMaps.aspx">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Content/CourseMapView.aspx">
+      <publishTime>03/13/2015 02:23:35</publishTime>
+    </File>
+    <File Include="Content/Dashboard.aspx">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="DataModel/CourseMapDataModel.Context.tt">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="DataModel/CourseMapDataModel.edmx.diagram">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="DataModel/CourseMapDataModel.tt">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="DbScripts/Patch_03042015.sql">
+      <publishTime>03/12/2015 03:09:38</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Images/aboutBG.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/aboutBG2.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/arrow.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/back.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner2.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner3.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner4.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner5.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner6.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/banner7.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/blacktrns.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/child.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/contactBG.jpg">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/cross_icon_normal.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/dashBG.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/faqBG.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/footerlogo.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/globe.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/graduation cap.png.jpg">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/icon1.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/icon2.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/images.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/images.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/index.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/line.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/line2.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/line3.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/line4.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/loginBG.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/logo1.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/logo2.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/logo3.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/logo9.png">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/man1.jpg">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/man2.jpg">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/man3.jpg">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/registerBG.jpg">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Images/scholarship.gif">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/searchBG.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/Stage_BG_btm.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/titlebar_bg.jpg">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/umbrala.png">
+      <publishTime>03/12/2015 03:09:23</publishTime>
+    </File>
+    <File Include="Images/whiteTrans.png">
+      <publishTime>03/12/2015 03:09:22</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Login.Master">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Registration.aspx">
+      <publishTime>03/13/2015 03:30:36</publishTime>
+    </File>
+    <File Include="Scripts/js/bootstrap.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery-1.11.2.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.easing.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/skdslider.css">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/skdslider.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/supersized.3.2.7.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/supersized.3.2.7.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/js/supersized.shutter.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/jquery-1.9.1.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/jquery-ui-1.10.2.custom.min.js">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/json3.min.js">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/primitives.latest.css">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/primitives.min.js">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/animated-overlay.gif">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_flat_10_000000_40x100.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-icons_222222_256x240.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-icons_228ef1_256x240.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-icons_ef8c08_256x240.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-icons_ffd27a_256x240.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/images/ui-icons_ffffff_256x240.png">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/ui-lightness/jquery-ui-1.10.2.custom.min.css">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Scripts/PrimitivesJs/UserTemplates.js">
+      <publishTime>03/12/2015 03:09:43</publishTime>
+    </File>
+    <File Include="Settings/AppSettings.config">
+      <publishTime>03/12/2015 03:09:44</publishTime>
+    </File>
+    <File Include="Settings/ConnectionStrings.config">
+      <publishTime>03/12/2015 03:14:36</publishTime>
+    </File>
+    <File Include="Student.Master">
+      <publishTime>03/13/2015 10:20:03</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/css/font-awesome.css">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/css/font-awesome.min.css">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/fonts/fontawesome-webfont.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/fonts/fontawesome-webfont.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/fonts/fontawesome-webfont.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/aweasome/font-awesome-4.2.0/fonts/FontAwesome.otf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap.min.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/css/bootstrap.min2.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/css/mystyle.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/css/mystyle1.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/css/mystyle2.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/css/supersized.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/css/supersized.shutter.css">
+      <publishTime>03/12/2015 03:09:40</publishTime>
+    </File>
+    <File Include="Styles/fonts/Apache License.txt">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/BRADHITC_1.TTF">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/BradleyHandITC.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/BradleyHandITC.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/BradleyHandITC.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/BradleyHandITC.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/opensans-bold.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/opensans-bold.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Bold.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/opensans-bold.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/opensans-bold.woff2">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-BoldItalic.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-BoldItalic.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-BoldItalic.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-BoldItalic.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Extrabold.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Extrabold.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-ExtraBold.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Extrabold.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-ExtraboldItalic.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-ExtraboldItalic.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-ExtraBoldItalic.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-ExtraboldItalic.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Italic.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Italic.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Italic.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Italic.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Light.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Light.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Light.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Light.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-LightItalic.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Regular.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Regular.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Regular.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Regular.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/opensans-regular.woff2">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Semibold.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Semibold.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Semibold.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-Semibold.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans-SemiboldItalic.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSans.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSansLight-Italic.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSansLight-Italic.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSansLight-Italic.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/OpenSansLight-Italic.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeBoot-Semilight.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeBoot-Semilight.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeBoot-Semilight.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeBoot-Semilight.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeUI-Semilight.eot">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeUI-Semilight.svg">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeUI-Semilight.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/SegoeUI-Semilight.woff">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/segoeuisl.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/fonts/segoe_slboot.ttf">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Styles/ModalPopup/ModalPopup.css">
+      <publishTime>03/12/2015 03:09:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/13/2015 10:23:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

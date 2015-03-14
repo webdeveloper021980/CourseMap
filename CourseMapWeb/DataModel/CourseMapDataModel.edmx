@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CourseMapModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="CourseMapModelStoreContainer">
+          <EntitySet Name="CourseInformations" EntityType="CourseMapModel.Store.CourseInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DepartmentsInformation" EntityType="CourseMapModel.Store.DepartmentsInformation" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ElectiveInformations" EntityType="CourseMapModel.Store.ElectiveInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MajorInformations" EntityType="CourseMapModel.Store.MajorInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PrerequisiteCourseInformations" EntityType="CourseMapModel.Store.PrerequisiteCourseInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SchoolCollageInformations" EntityType="CourseMapModel.Store.SchoolCollageInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="States" EntityType="CourseMapModel.Store.States" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StudentBasicInformations" EntityType="CourseMapModel.Store.StudentBasicInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StudentCourseInformations" EntityType="CourseMapModel.Store.StudentCourseInformations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StudentElectiveCourses" EntityType="CourseMapModel.Store.StudentElectiveCourses" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StudentPrerequisiteCourses" EntityType="CourseMapModel.Store.StudentPrerequisiteCourses" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_CourseInformations_MajorInformations" Association="CourseMapModel.Store.FK_CourseInformations_MajorInformations">
+            <End Role="MajorInformations" EntitySet="MajorInformations" />
+            <End Role="CourseInformations" EntitySet="CourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DepartmentsInformation_SchoolCollageInformations" Association="CourseMapModel.Store.FK_DepartmentsInformation_SchoolCollageInformations">
+            <End Role="SchoolCollageInformations" EntitySet="SchoolCollageInformations" />
+            <End Role="DepartmentsInformation" EntitySet="DepartmentsInformation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ElectiveInformations_CourseInformations" Association="CourseMapModel.Store.FK_ElectiveInformations_CourseInformations">
+            <End Role="CourseInformations" EntitySet="CourseInformations" />
+            <End Role="ElectiveInformations" EntitySet="ElectiveInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MajorInformations_DepartmentsInformation" Association="CourseMapModel.Store.FK_MajorInformations_DepartmentsInformation">
+            <End Role="DepartmentsInformation" EntitySet="DepartmentsInformation" />
+            <End Role="MajorInformations" EntitySet="MajorInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrerequisiteCourseInformations_CourseInformations" Association="CourseMapModel.Store.FK_PrerequisiteCourseInformations_CourseInformations">
+            <End Role="CourseInformations" EntitySet="CourseInformations" />
+            <End Role="PrerequisiteCourseInformations" EntitySet="PrerequisiteCourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentBasicInformations_SchoolCollageInformations" Association="CourseMapModel.Store.FK_StudentBasicInformations_SchoolCollageInformations">
+            <End Role="SchoolCollageInformations" EntitySet="SchoolCollageInformations" />
+            <End Role="StudentBasicInformations" EntitySet="StudentBasicInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourseInformations_CourseInformations" Association="CourseMapModel.Store.FK_StudentCourseInformations_CourseInformations">
+            <End Role="CourseInformations" EntitySet="CourseInformations" />
+            <End Role="StudentCourseInformations" EntitySet="StudentCourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourseInformations_StudentBasicInformations" Association="CourseMapModel.Store.FK_StudentCourseInformations_StudentBasicInformations">
+            <End Role="StudentBasicInformations" EntitySet="StudentBasicInformations" />
+            <End Role="StudentCourseInformations" EntitySet="StudentCourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentElectiveCourses_StudentBasicInformations" Association="CourseMapModel.Store.FK_StudentElectiveCourses_StudentBasicInformations">
+            <End Role="StudentBasicInformations" EntitySet="StudentBasicInformations" />
+            <End Role="StudentElectiveCourses" EntitySet="StudentElectiveCourses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentElectiveCourses_StudentElectiveCourses" Association="CourseMapModel.Store.FK_StudentElectiveCourses_StudentElectiveCourses">
+            <End Role="ElectiveInformations" EntitySet="ElectiveInformations" />
+            <End Role="StudentElectiveCourses" EntitySet="StudentElectiveCourses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations" Association="CourseMapModel.Store.FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations">
+            <End Role="PrerequisiteCourseInformations" EntitySet="PrerequisiteCourseInformations" />
+            <End Role="StudentPrerequisiteCourses" EntitySet="StudentPrerequisiteCourses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentPrerequisiteCourses_StudentBasicInformations" Association="CourseMapModel.Store.FK_StudentPrerequisiteCourses_StudentBasicInformations">
+            <End Role="StudentBasicInformations" EntitySet="StudentBasicInformations" />
+            <End Role="StudentPrerequisiteCourses" EntitySet="StudentPrerequisiteCourses" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CourseInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MajorId" Type="bigint" Nullable="false" />
+          <Property Name="CourseName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="PassingGrade" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="Unit" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DepartmentsInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SchoolOrCollageId" Type="bigint" Nullable="false" />
+          <Property Name="DepartmentName" Type="varchar" Nullable="false" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="ElectiveInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CourseId" Type="bigint" Nullable="false" />
+          <Property Name="ElectiveName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="PassingGrade" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="Score" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MajorInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DepartmentId" Type="bigint" Nullable="false" />
+          <Property Name="Major" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="PrerequisiteCourseInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CourseId" Type="bigint" Nullable="false" />
+          <Property Name="PrerequisiteCourseName" Type="varchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="SchoolCollageInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SchoolOrCollageName" Type="varchar" Nullable="false" MaxLength="200" />
+          <Property Name="TypeSc" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="States">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StateName" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="StudentBasicInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="FullName" Type="varchar" Nullable="false" MaxLength="201" />
+          <Property Name="Email" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="Password" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="SchoolOrCollage" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="SchoolOrCollageId" Type="bigint" Nullable="false" />
+          <Property Name="DepartmentId" Type="bigint" Nullable="false" />
+          <Property Name="MajorId" Type="bigint" Nullable="false" />
+          <Property Name="Dob" Type="datetime" Nullable="false" />
+          <Property Name="Address1" Type="varchar" MaxLength="500" />
+          <Property Name="Address2" Type="varchar" MaxLength="500" />
+          <Property Name="City" Type="varchar" MaxLength="100" />
+          <Property Name="State" Type="varchar" MaxLength="100" />
+          <Property Name="ZipCode" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="StudentCourseInformations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="bigint" Nullable="false" />
+          <Property Name="CourseId" Type="bigint" Nullable="false" />
+          <Property Name="CourseStatus" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="GradeRecieved" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="StudentElectiveCourses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" />
+          <Property Name="StudentId" Type="bigint" Nullable="false" />
+          <Property Name="ElectiveCourseId" Type="bigint" Nullable="false" />
+          <Property Name="ElectiveCourseStatus" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="GradeRecieved" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="StudentPrerequisiteCourses">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudentId" Type="bigint" Nullable="false" />
+          <Property Name="PrerequisiteCourseId" Type="bigint" Nullable="false" />
+          <Property Name="PrerequisiteCourseStatus" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_CourseInformations_MajorInformations">
+          <End Role="MajorInformations" Type="CourseMapModel.Store.MajorInformations" Multiplicity="1" />
+          <End Role="CourseInformations" Type="CourseMapModel.Store.CourseInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MajorInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CourseInformations">
+              <PropertyRef Name="MajorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DepartmentsInformation_SchoolCollageInformations">
+          <End Role="SchoolCollageInformations" Type="CourseMapModel.Store.SchoolCollageInformations" Multiplicity="1" />
+          <End Role="DepartmentsInformation" Type="CourseMapModel.Store.DepartmentsInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SchoolCollageInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DepartmentsInformation">
+              <PropertyRef Name="SchoolOrCollageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ElectiveInformations_CourseInformations">
+          <End Role="CourseInformations" Type="CourseMapModel.Store.CourseInformations" Multiplicity="1" />
+          <End Role="ElectiveInformations" Type="CourseMapModel.Store.ElectiveInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ElectiveInformations">
+              <PropertyRef Name="CourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MajorInformations_DepartmentsInformation">
+          <End Role="DepartmentsInformation" Type="CourseMapModel.Store.DepartmentsInformation" Multiplicity="1" />
+          <End Role="MajorInformations" Type="CourseMapModel.Store.MajorInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DepartmentsInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MajorInformations">
+              <PropertyRef Name="DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrerequisiteCourseInformations_CourseInformations">
+          <End Role="CourseInformations" Type="CourseMapModel.Store.CourseInformations" Multiplicity="1" />
+          <End Role="PrerequisiteCourseInformations" Type="CourseMapModel.Store.PrerequisiteCourseInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PrerequisiteCourseInformations">
+              <PropertyRef Name="CourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentBasicInformations_SchoolCollageInformations">
+          <End Role="SchoolCollageInformations" Type="CourseMapModel.Store.SchoolCollageInformations" Multiplicity="1" />
+          <End Role="StudentBasicInformations" Type="CourseMapModel.Store.StudentBasicInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SchoolCollageInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentBasicInformations">
+              <PropertyRef Name="SchoolOrCollageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentCourseInformations_CourseInformations">
+          <End Role="CourseInformations" Type="CourseMapModel.Store.CourseInformations" Multiplicity="1" />
+          <End Role="StudentCourseInformations" Type="CourseMapModel.Store.StudentCourseInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentCourseInformations">
+              <PropertyRef Name="CourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentCourseInformations_StudentBasicInformations">
+          <End Role="StudentBasicInformations" Type="CourseMapModel.Store.StudentBasicInformations" Multiplicity="1" />
+          <End Role="StudentCourseInformations" Type="CourseMapModel.Store.StudentCourseInformations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentBasicInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentCourseInformations">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentElectiveCourses_StudentBasicInformations">
+          <End Role="StudentBasicInformations" Type="CourseMapModel.Store.StudentBasicInformations" Multiplicity="1" />
+          <End Role="StudentElectiveCourses" Type="CourseMapModel.Store.StudentElectiveCourses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentBasicInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentElectiveCourses">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentElectiveCourses_StudentElectiveCourses">
+          <End Role="ElectiveInformations" Type="CourseMapModel.Store.ElectiveInformations" Multiplicity="1" />
+          <End Role="StudentElectiveCourses" Type="CourseMapModel.Store.StudentElectiveCourses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ElectiveInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentElectiveCourses">
+              <PropertyRef Name="ElectiveCourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations">
+          <End Role="PrerequisiteCourseInformations" Type="CourseMapModel.Store.PrerequisiteCourseInformations" Multiplicity="1" />
+          <End Role="StudentPrerequisiteCourses" Type="CourseMapModel.Store.StudentPrerequisiteCourses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrerequisiteCourseInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentPrerequisiteCourses">
+              <PropertyRef Name="PrerequisiteCourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentPrerequisiteCourses_StudentBasicInformations">
+          <End Role="StudentBasicInformations" Type="CourseMapModel.Store.StudentBasicInformations" Multiplicity="1" />
+          <End Role="StudentPrerequisiteCourses" Type="CourseMapModel.Store.StudentPrerequisiteCourses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentBasicInformations">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentPrerequisiteCourses">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CourseMapModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="CourseMapDataModel" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="States" EntityType="CourseMapModel.State" />
+          <EntitySet Name="CourseInformations" EntityType="CourseMapModel.CourseInformation" />
+          <EntitySet Name="DepartmentsInformations" EntityType="CourseMapModel.DepartmentsInformation" />
+          <EntitySet Name="ElectiveInformations" EntityType="CourseMapModel.ElectiveInformation" />
+          <EntitySet Name="MajorInformations" EntityType="CourseMapModel.MajorInformation" />
+          <EntitySet Name="PrerequisiteCourseInformations" EntityType="CourseMapModel.PrerequisiteCourseInformation" />
+          <EntitySet Name="SchoolCollageInformations" EntityType="CourseMapModel.SchoolCollageInformation" />
+          <AssociationSet Name="FK_CourseInformations_MajorInformations" Association="CourseMapModel.FK_CourseInformations_MajorInformations">
+            <End Role="MajorInformation" EntitySet="MajorInformations" />
+            <End Role="CourseInformation" EntitySet="CourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ElectiveInformations_CourseInformations" Association="CourseMapModel.FK_ElectiveInformations_CourseInformations">
+            <End Role="CourseInformation" EntitySet="CourseInformations" />
+            <End Role="ElectiveInformation" EntitySet="ElectiveInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PrerequisiteCourseInformations_CourseInformations" Association="CourseMapModel.FK_PrerequisiteCourseInformations_CourseInformations">
+            <End Role="CourseInformation" EntitySet="CourseInformations" />
+            <End Role="PrerequisiteCourseInformation" EntitySet="PrerequisiteCourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DepartmentsInformation_SchoolCollageInformations" Association="CourseMapModel.FK_DepartmentsInformation_SchoolCollageInformations">
+            <End Role="SchoolCollageInformation" EntitySet="SchoolCollageInformations" />
+            <End Role="DepartmentsInformation" EntitySet="DepartmentsInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MajorInformations_DepartmentsInformation" Association="CourseMapModel.FK_MajorInformations_DepartmentsInformation">
+            <End Role="DepartmentsInformation" EntitySet="DepartmentsInformations" />
+            <End Role="MajorInformation" EntitySet="MajorInformations" />
+          </AssociationSet>
+          <EntitySet Name="StudentBasicInformations" EntityType="CourseMapModel.StudentBasicInformation" />
+          <AssociationSet Name="FK_StudentBasicInformations_SchoolCollageInformations" Association="CourseMapModel.FK_StudentBasicInformations_SchoolCollageInformations">
+            <End Role="SchoolCollageInformation" EntitySet="SchoolCollageInformations" />
+            <End Role="StudentBasicInformation" EntitySet="StudentBasicInformations" />
+          </AssociationSet>
+          <EntitySet Name="StudentCourseInformations" EntityType="CourseMapModel.StudentCourseInformation" />
+          <EntitySet Name="StudentElectiveCourses" EntityType="CourseMapModel.StudentElectiveCours" />
+          <EntitySet Name="StudentPrerequisiteCourses" EntityType="CourseMapModel.StudentPrerequisiteCours" />
+          <AssociationSet Name="FK_StudentCourseInformations_CourseInformations" Association="CourseMapModel.FK_StudentCourseInformations_CourseInformations">
+            <End Role="CourseInformation" EntitySet="CourseInformations" />
+            <End Role="StudentCourseInformation" EntitySet="StudentCourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentElectiveCourses_StudentElectiveCourses" Association="CourseMapModel.FK_StudentElectiveCourses_StudentElectiveCourses">
+            <End Role="ElectiveInformation" EntitySet="ElectiveInformations" />
+            <End Role="StudentElectiveCours" EntitySet="StudentElectiveCourses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations" Association="CourseMapModel.FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations">
+            <End Role="PrerequisiteCourseInformation" EntitySet="PrerequisiteCourseInformations" />
+            <End Role="StudentPrerequisiteCours" EntitySet="StudentPrerequisiteCourses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentCourseInformations_StudentBasicInformations" Association="CourseMapModel.FK_StudentCourseInformations_StudentBasicInformations">
+            <End Role="StudentBasicInformation" EntitySet="StudentBasicInformations" />
+            <End Role="StudentCourseInformation" EntitySet="StudentCourseInformations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentElectiveCourses_StudentBasicInformations" Association="CourseMapModel.FK_StudentElectiveCourses_StudentBasicInformations">
+            <End Role="StudentBasicInformation" EntitySet="StudentBasicInformations" />
+            <End Role="StudentElectiveCours" EntitySet="StudentElectiveCourses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentPrerequisiteCourses_StudentBasicInformations" Association="CourseMapModel.FK_StudentPrerequisiteCourses_StudentBasicInformations">
+            <End Role="StudentBasicInformation" EntitySet="StudentBasicInformations" />
+            <End Role="StudentPrerequisiteCours" EntitySet="StudentPrerequisiteCourses" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="State">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="StateName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="CourseInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="MajorId" Nullable="false" />
+          <Property Type="String" Name="CourseName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PassingGrade" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Unit" Nullable="false" />
+          <NavigationProperty Name="MajorInformation" Relationship="CourseMapModel.FK_CourseInformations_MajorInformations" FromRole="CourseInformation" ToRole="MajorInformation" />
+          <NavigationProperty Name="ElectiveInformations" Relationship="CourseMapModel.FK_ElectiveInformations_CourseInformations" FromRole="CourseInformation" ToRole="ElectiveInformation" />
+          <NavigationProperty Name="PrerequisiteCourseInformations" Relationship="CourseMapModel.FK_PrerequisiteCourseInformations_CourseInformations" FromRole="CourseInformation" ToRole="PrerequisiteCourseInformation" />
+          <NavigationProperty Name="StudentCourseInformations" Relationship="CourseMapModel.FK_StudentCourseInformations_CourseInformations" FromRole="CourseInformation" ToRole="StudentCourseInformation" />
+        </EntityType>
+        <EntityType Name="DepartmentsInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="SchoolOrCollageId" Nullable="false" />
+          <Property Type="String" Name="DepartmentName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SchoolCollageInformation" Relationship="CourseMapModel.FK_DepartmentsInformation_SchoolCollageInformations" FromRole="DepartmentsInformation" ToRole="SchoolCollageInformation" />
+          <NavigationProperty Name="MajorInformations" Relationship="CourseMapModel.FK_MajorInformations_DepartmentsInformation" FromRole="DepartmentsInformation" ToRole="MajorInformation" />
+        </EntityType>
+        <EntityType Name="ElectiveInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="CourseId" Nullable="false" />
+          <Property Type="String" Name="ElectiveName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="PassingGrade" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Score" Nullable="false" />
+          <NavigationProperty Name="CourseInformation" Relationship="CourseMapModel.FK_ElectiveInformations_CourseInformations" FromRole="ElectiveInformation" ToRole="CourseInformation" />
+          <NavigationProperty Name="StudentElectiveCourses" Relationship="CourseMapModel.FK_StudentElectiveCourses_StudentElectiveCourses" FromRole="ElectiveInformation" ToRole="StudentElectiveCours" />
+        </EntityType>
+        <EntityType Name="MajorInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="DepartmentId" Nullable="false" />
+          <Property Type="String" Name="Major" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CourseInformations" Relationship="CourseMapModel.FK_CourseInformations_MajorInformations" FromRole="MajorInformation" ToRole="CourseInformation" />
+          <NavigationProperty Name="DepartmentsInformation" Relationship="CourseMapModel.FK_MajorInformations_DepartmentsInformation" FromRole="MajorInformation" ToRole="DepartmentsInformation" />
+        </EntityType>
+        <EntityType Name="PrerequisiteCourseInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="CourseId" Nullable="false" />
+          <Property Type="String" Name="PrerequisiteCourseName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CourseInformation" Relationship="CourseMapModel.FK_PrerequisiteCourseInformations_CourseInformations" FromRole="PrerequisiteCourseInformation" ToRole="CourseInformation" />
+          <NavigationProperty Name="StudentPrerequisiteCourses" Relationship="CourseMapModel.FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations" FromRole="PrerequisiteCourseInformation" ToRole="StudentPrerequisiteCours" />
+        </EntityType>
+        <EntityType Name="SchoolCollageInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="SchoolOrCollageName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="TypeSc" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="DepartmentsInformations" Relationship="CourseMapModel.FK_DepartmentsInformation_SchoolCollageInformations" FromRole="SchoolCollageInformation" ToRole="DepartmentsInformation" />
+          <NavigationProperty Name="StudentBasicInformations" Relationship="CourseMapModel.FK_StudentBasicInformations_SchoolCollageInformations" FromRole="SchoolCollageInformation" ToRole="StudentBasicInformation" />
+        </EntityType>
+        <Association Name="FK_CourseInformations_MajorInformations">
+          <End Type="CourseMapModel.MajorInformation" Role="MajorInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.CourseInformation" Role="CourseInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MajorInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CourseInformation">
+              <PropertyRef Name="MajorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ElectiveInformations_CourseInformations">
+          <End Type="CourseMapModel.CourseInformation" Role="CourseInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.ElectiveInformation" Role="ElectiveInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ElectiveInformation">
+              <PropertyRef Name="CourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PrerequisiteCourseInformations_CourseInformations">
+          <End Type="CourseMapModel.CourseInformation" Role="CourseInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.PrerequisiteCourseInformation" Role="PrerequisiteCourseInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PrerequisiteCourseInformation">
+              <PropertyRef Name="CourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DepartmentsInformation_SchoolCollageInformations">
+          <End Type="CourseMapModel.SchoolCollageInformation" Role="SchoolCollageInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.DepartmentsInformation" Role="DepartmentsInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SchoolCollageInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="DepartmentsInformation">
+              <PropertyRef Name="SchoolOrCollageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MajorInformations_DepartmentsInformation">
+          <End Type="CourseMapModel.DepartmentsInformation" Role="DepartmentsInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.MajorInformation" Role="MajorInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DepartmentsInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MajorInformation">
+              <PropertyRef Name="DepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="StudentBasicInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="StudentId" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="FirstName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="LastName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="FullName" Nullable="false" MaxLength="201" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Email" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Password" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="SchoolOrCollage" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Type="Int64" Name="SchoolOrCollageId" Nullable="false" />
+          <Property Type="Int64" Name="DepartmentId" Nullable="false" />
+          <Property Type="Int64" Name="MajorId" Nullable="false" />
+          <Property Type="DateTime" Name="Dob" Nullable="false" Precision="3" />
+          <Property Type="String" Name="Address1" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Address2" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="City" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="State" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ZipCode" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SchoolCollageInformation" Relationship="CourseMapModel.FK_StudentBasicInformations_SchoolCollageInformations" FromRole="StudentBasicInformation" ToRole="SchoolCollageInformation" />
+          <NavigationProperty Name="StudentCourseInformations" Relationship="CourseMapModel.FK_StudentCourseInformations_StudentBasicInformations" FromRole="StudentBasicInformation" ToRole="StudentCourseInformation" />
+          <NavigationProperty Name="StudentElectiveCourses" Relationship="CourseMapModel.FK_StudentElectiveCourses_StudentBasicInformations" FromRole="StudentBasicInformation" ToRole="StudentElectiveCours" />
+          <NavigationProperty Name="StudentPrerequisiteCourses" Relationship="CourseMapModel.FK_StudentPrerequisiteCourses_StudentBasicInformations" FromRole="StudentBasicInformation" ToRole="StudentPrerequisiteCours" />
+        </EntityType>
+        <Association Name="FK_StudentBasicInformations_SchoolCollageInformations">
+          <End Type="CourseMapModel.SchoolCollageInformation" Role="SchoolCollageInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentBasicInformation" Role="StudentBasicInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SchoolCollageInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentBasicInformation">
+              <PropertyRef Name="SchoolOrCollageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="StudentCourseInformation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="StudentId" Nullable="false" />
+          <Property Type="Int64" Name="CourseId" Nullable="false" />
+          <Property Type="String" Name="CourseStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="GradeRecieved" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CourseInformation" Relationship="CourseMapModel.FK_StudentCourseInformations_CourseInformations" FromRole="StudentCourseInformation" ToRole="CourseInformation" />
+          <NavigationProperty Name="StudentBasicInformation" Relationship="CourseMapModel.FK_StudentCourseInformations_StudentBasicInformations" FromRole="StudentCourseInformation" ToRole="StudentBasicInformation" />
+        </EntityType>
+        <EntityType Name="StudentElectiveCours">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" />
+          <Property Type="Int64" Name="StudentId" Nullable="false" />
+          <Property Type="Int64" Name="ElectiveCourseId" Nullable="false" />
+          <Property Type="String" Name="ElectiveCourseStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="GradeRecieved" MaxLength="10" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ElectiveInformation" Relationship="CourseMapModel.FK_StudentElectiveCourses_StudentElectiveCourses" FromRole="StudentElectiveCours" ToRole="ElectiveInformation" />
+          <NavigationProperty Name="StudentBasicInformation" Relationship="CourseMapModel.FK_StudentElectiveCourses_StudentBasicInformations" FromRole="StudentElectiveCours" ToRole="StudentBasicInformation" />
+        </EntityType>
+        <EntityType Name="StudentPrerequisiteCours">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int64" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int64" Name="StudentId" Nullable="false" />
+          <Property Type="Int64" Name="PrerequisiteCourseId" Nullable="false" />
+          <Property Type="String" Name="PrerequisiteCourseStatus" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="PrerequisiteCourseInformation" Relationship="CourseMapModel.FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations" FromRole="StudentPrerequisiteCours" ToRole="PrerequisiteCourseInformation" />
+          <NavigationProperty Name="StudentBasicInformation" Relationship="CourseMapModel.FK_StudentPrerequisiteCourses_StudentBasicInformations" FromRole="StudentPrerequisiteCours" ToRole="StudentBasicInformation" />
+        </EntityType>
+        <Association Name="FK_StudentCourseInformations_CourseInformations">
+          <End Type="CourseMapModel.CourseInformation" Role="CourseInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentCourseInformation" Role="StudentCourseInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CourseInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentCourseInformation">
+              <PropertyRef Name="CourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentElectiveCourses_StudentElectiveCourses">
+          <End Type="CourseMapModel.ElectiveInformation" Role="ElectiveInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentElectiveCours" Role="StudentElectiveCours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ElectiveInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentElectiveCours">
+              <PropertyRef Name="ElectiveCourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations">
+          <End Type="CourseMapModel.PrerequisiteCourseInformation" Role="PrerequisiteCourseInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentPrerequisiteCours" Role="StudentPrerequisiteCours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PrerequisiteCourseInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentPrerequisiteCours">
+              <PropertyRef Name="PrerequisiteCourseId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentCourseInformations_StudentBasicInformations">
+          <End Type="CourseMapModel.StudentBasicInformation" Role="StudentBasicInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentCourseInformation" Role="StudentCourseInformation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentBasicInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentCourseInformation">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentElectiveCourses_StudentBasicInformations">
+          <End Type="CourseMapModel.StudentBasicInformation" Role="StudentBasicInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentElectiveCours" Role="StudentElectiveCours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentBasicInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentElectiveCours">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentPrerequisiteCourses_StudentBasicInformations">
+          <End Type="CourseMapModel.StudentBasicInformation" Role="StudentBasicInformation" Multiplicity="1" />
+          <End Type="CourseMapModel.StudentPrerequisiteCours" Role="StudentPrerequisiteCours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentBasicInformation">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentPrerequisiteCours">
+              <PropertyRef Name="StudentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CourseMapModelStoreContainer" CdmEntityContainer="CourseMapDataModel">
+          <EntitySetMapping Name="States">
+            <EntityTypeMapping TypeName="CourseMapModel.State">
+              <MappingFragment StoreEntitySet="States">
+                <ScalarProperty Name="StateName" ColumnName="StateName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CourseInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.CourseInformation">
+              <MappingFragment StoreEntitySet="CourseInformations">
+                <ScalarProperty Name="Unit" ColumnName="Unit" />
+                <ScalarProperty Name="PassingGrade" ColumnName="PassingGrade" />
+                <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+                <ScalarProperty Name="MajorId" ColumnName="MajorId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DepartmentsInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.DepartmentsInformation">
+              <MappingFragment StoreEntitySet="DepartmentsInformation">
+                <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+                <ScalarProperty Name="SchoolOrCollageId" ColumnName="SchoolOrCollageId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ElectiveInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.ElectiveInformation">
+              <MappingFragment StoreEntitySet="ElectiveInformations">
+                <ScalarProperty Name="Score" ColumnName="Score" />
+                <ScalarProperty Name="PassingGrade" ColumnName="PassingGrade" />
+                <ScalarProperty Name="ElectiveName" ColumnName="ElectiveName" />
+                <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MajorInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.MajorInformation">
+              <MappingFragment StoreEntitySet="MajorInformations">
+                <ScalarProperty Name="Major" ColumnName="Major" />
+                <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PrerequisiteCourseInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.PrerequisiteCourseInformation">
+              <MappingFragment StoreEntitySet="PrerequisiteCourseInformations">
+                <ScalarProperty Name="PrerequisiteCourseName" ColumnName="PrerequisiteCourseName" />
+                <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SchoolCollageInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.SchoolCollageInformation">
+              <MappingFragment StoreEntitySet="SchoolCollageInformations">
+                <ScalarProperty Name="TypeSc" ColumnName="TypeSc" />
+                <ScalarProperty Name="SchoolOrCollageName" ColumnName="SchoolOrCollageName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentBasicInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.StudentBasicInformation">
+              <MappingFragment StoreEntitySet="StudentBasicInformations">
+                <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Address2" ColumnName="Address2" />
+                <ScalarProperty Name="Address1" ColumnName="Address1" />
+                <ScalarProperty Name="Dob" ColumnName="Dob" />
+                <ScalarProperty Name="MajorId" ColumnName="MajorId" />
+                <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+                <ScalarProperty Name="SchoolOrCollageId" ColumnName="SchoolOrCollageId" />
+                <ScalarProperty Name="SchoolOrCollage" ColumnName="SchoolOrCollage" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentCourseInformations">
+            <EntityTypeMapping TypeName="CourseMapModel.StudentCourseInformation">
+              <MappingFragment StoreEntitySet="StudentCourseInformations">
+                <ScalarProperty Name="GradeRecieved" ColumnName="GradeRecieved" />
+                <ScalarProperty Name="CourseStatus" ColumnName="CourseStatus" />
+                <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentElectiveCourses">
+            <EntityTypeMapping TypeName="CourseMapModel.StudentElectiveCours">
+              <MappingFragment StoreEntitySet="StudentElectiveCourses">
+                <ScalarProperty Name="GradeRecieved" ColumnName="GradeRecieved" />
+                <ScalarProperty Name="ElectiveCourseStatus" ColumnName="ElectiveCourseStatus" />
+                <ScalarProperty Name="ElectiveCourseId" ColumnName="ElectiveCourseId" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentPrerequisiteCourses">
+            <EntityTypeMapping TypeName="CourseMapModel.StudentPrerequisiteCours">
+              <MappingFragment StoreEntitySet="StudentPrerequisiteCourses">
+                <ScalarProperty Name="PrerequisiteCourseStatus" ColumnName="PrerequisiteCourseStatus" />
+                <ScalarProperty Name="PrerequisiteCourseId" ColumnName="PrerequisiteCourseId" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,186 @@
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.pdb
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Antlr3.Runtime.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\EntityFramework.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\System.Web.Optimization.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\System.Web.Providers.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\WebGrease.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\EntityFramework.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.csprojResolveAssemblyReference.cache
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.dll
+D:\Application\Svn\CourseMap\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.pdb
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.pdb
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Antlr3.Runtime.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\EntityFramework.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\System.Web.Optimization.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\System.Web.Providers.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\WebGrease.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\EntityFramework.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.dll
+E:\Projects\CourseMap\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.pdb
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.dll.config
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.pdb
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Antlr3.Runtime.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\EntityFramework.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.WebForms.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\System.Web.Optimization.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\System.Web.Providers.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\WebGrease.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\EntityFramework.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.csprojResolveAssemblyReference.cache
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.dll
+D:\COURSE MAP PROJECT HISTORY\CourseMap\CourseMap\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.pdb
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.pdb
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Antlr3.Runtime.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\EntityFramework.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\System.Web.Optimization.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\System.Web.Providers.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\WebGrease.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\EntityFramework.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.csprojResolveAssemblyReference.cache
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.dll
+C:\Users\Praveen\Downloads\Copy of CourseMapSolution\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.pdb
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\CourseMapWeb.pdb
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\AjaxControlToolkit.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\AjaxMin.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Antlr3.Runtime.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\BPOrgDiagram.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\EntityFramework.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\System.Web.Optimization.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\System.Web.Providers.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\WebGrease.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\BPOrgDiagram.pdb
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\EntityFramework.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.Core.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\DotNetOpenAuth.AspNet.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\ar\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\cs\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\de\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\es\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\fr\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\he\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\hi\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\it\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\ja\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\ko\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\nl\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\pl\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\pt\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\ru\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.csprojResolveAssemblyReference.cache
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\CourseMapWeb\obj\Debug\CourseMapWeb.pdb

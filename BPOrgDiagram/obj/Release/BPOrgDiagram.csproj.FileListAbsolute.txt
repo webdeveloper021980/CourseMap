@@ -1,0 +1,7 @@
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\bin\Release\BPOrgDiagram.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\bin\Release\BPOrgDiagram.pdb
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\obj\Release\BPOrgDiagram.csprojResolveAssemblyReference.cache
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\obj\Release\BasicPrimitives.OrgDiagram.OrgDiagramClientControl.resources
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\obj\Release\BPOrgDiagram.csproj.GenerateResource.Cache
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\obj\Release\BPOrgDiagram.dll
+E:\Projects\CourseMap_New\trunk\CourseMapSolution\BPOrgDiagram\obj\Release\BPOrgDiagram.pdb

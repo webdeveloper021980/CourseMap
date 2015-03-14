@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="03d22a032515492683b6583752da1771" Name="Diagram1">
+        <EntityTypeShape EntityType="CourseMapModel.State" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="CourseMapModel.CourseInformation" Width="1.5" PointX="2.625" PointY="0.5" />
+        <EntityTypeShape EntityType="CourseMapModel.DepartmentsInformation" Width="1.5" PointX="5.25" PointY="0.5" />
+        <EntityTypeShape EntityType="CourseMapModel.ElectiveInformation" Width="1.5" PointX="8" PointY="0.5" />
+        <EntityTypeShape EntityType="CourseMapModel.MajorInformation" Width="1.5" PointX="10.375" PointY="0.5" />
+        <EntityTypeShape EntityType="CourseMapModel.PrerequisiteCourseInformation" Width="1.5" PointX="10.625" PointY="3.5" />
+        <EntityTypeShape EntityType="CourseMapModel.SchoolCollageInformation" Width="1.5" PointX="0.75" PointY="3.25" />
+        <AssociationConnector Association="CourseMapModel.FK_CourseInformations_MajorInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_ElectiveInformations_CourseInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_PrerequisiteCourseInformations_CourseInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_DepartmentsInformation_SchoolCollageInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_MajorInformations_DepartmentsInformation" />
+        <EntityTypeShape EntityType="CourseMapModel.StudentBasicInformation" Width="1.5" PointX="6.625" PointY="3.375" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentBasicInformations_SchoolCollageInformations" />
+        <EntityTypeShape EntityType="CourseMapModel.StudentCourseInformation" Width="1.5" PointX="7.6067332195149424" PointY="3.7895182835820682" />
+        <EntityTypeShape EntityType="CourseMapModel.StudentElectiveCours" Width="1.5" PointX="8.0478606131150663" PointY="2.8838915540296077" />
+        <EntityTypeShape EntityType="CourseMapModel.StudentPrerequisiteCours" Width="1.5" PointX="3.1304236050371195" PointY="25.69605382983389" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentCourseInformations_CourseInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentElectiveCourses_StudentElectiveCourses" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentPrerequisiteCourses_PrerequisiteCourseInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentCourseInformations_StudentBasicInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentElectiveCourses_StudentBasicInformations" />
+        <AssociationConnector Association="CourseMapModel.FK_StudentPrerequisiteCourses_StudentBasicInformations" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

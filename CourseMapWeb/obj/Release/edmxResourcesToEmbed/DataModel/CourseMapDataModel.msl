@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CourseMapModelStoreContainer" CdmEntityContainer="CourseMapDataModel">
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="CourseMapModel.State">
+        <MappingFragment StoreEntitySet="States">
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CourseInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.CourseInformation">
+        <MappingFragment StoreEntitySet="CourseInformations">
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="PassingGrade" ColumnName="PassingGrade" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+          <ScalarProperty Name="MajorId" ColumnName="MajorId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DepartmentsInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.DepartmentsInformation">
+        <MappingFragment StoreEntitySet="DepartmentsInformation">
+          <ScalarProperty Name="DepartmentName" ColumnName="DepartmentName" />
+          <ScalarProperty Name="SchoolOrCollageId" ColumnName="SchoolOrCollageId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ElectiveInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.ElectiveInformation">
+        <MappingFragment StoreEntitySet="ElectiveInformations">
+          <ScalarProperty Name="Score" ColumnName="Score" />
+          <ScalarProperty Name="PassingGrade" ColumnName="PassingGrade" />
+          <ScalarProperty Name="ElectiveName" ColumnName="ElectiveName" />
+          <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MajorInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.MajorInformation">
+        <MappingFragment StoreEntitySet="MajorInformations">
+          <ScalarProperty Name="Major" ColumnName="Major" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrerequisiteCourseInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.PrerequisiteCourseInformation">
+        <MappingFragment StoreEntitySet="PrerequisiteCourseInformations">
+          <ScalarProperty Name="PrerequisiteCourseName" ColumnName="PrerequisiteCourseName" />
+          <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SchoolCollageInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.SchoolCollageInformation">
+        <MappingFragment StoreEntitySet="SchoolCollageInformations">
+          <ScalarProperty Name="TypeSc" ColumnName="TypeSc" />
+          <ScalarProperty Name="SchoolOrCollageName" ColumnName="SchoolOrCollageName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentBasicInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.StudentBasicInformation">
+        <MappingFragment StoreEntitySet="StudentBasicInformations">
+          <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Address2" ColumnName="Address2" />
+          <ScalarProperty Name="Address1" ColumnName="Address1" />
+          <ScalarProperty Name="Dob" ColumnName="Dob" />
+          <ScalarProperty Name="MajorId" ColumnName="MajorId" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="SchoolOrCollageId" ColumnName="SchoolOrCollageId" />
+          <ScalarProperty Name="SchoolOrCollage" ColumnName="SchoolOrCollage" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentCourseInformations">
+      <EntityTypeMapping TypeName="CourseMapModel.StudentCourseInformation">
+        <MappingFragment StoreEntitySet="StudentCourseInformations">
+          <ScalarProperty Name="GradeRecieved" ColumnName="GradeRecieved" />
+          <ScalarProperty Name="CourseStatus" ColumnName="CourseStatus" />
+          <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentElectiveCourses">
+      <EntityTypeMapping TypeName="CourseMapModel.StudentElectiveCours">
+        <MappingFragment StoreEntitySet="StudentElectiveCourses">
+          <ScalarProperty Name="GradeRecieved" ColumnName="GradeRecieved" />
+          <ScalarProperty Name="ElectiveCourseStatus" ColumnName="ElectiveCourseStatus" />
+          <ScalarProperty Name="ElectiveCourseId" ColumnName="ElectiveCourseId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentPrerequisiteCourses">
+      <EntityTypeMapping TypeName="CourseMapModel.StudentPrerequisiteCours">
+        <MappingFragment StoreEntitySet="StudentPrerequisiteCourses">
+          <ScalarProperty Name="PrerequisiteCourseStatus" ColumnName="PrerequisiteCourseStatus" />
+          <ScalarProperty Name="PrerequisiteCourseId" ColumnName="PrerequisiteCourseId" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

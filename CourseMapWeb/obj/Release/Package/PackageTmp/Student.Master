@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.Master.cs" Inherits="CourseMapWeb.Student" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>CourseMap Login</title>
+    <link rel="stylesheet" href="Styles/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/css/mystyle.css" type="text/css" />
+    <link rel="stylesheet" href="Styles/aweasome/font-awesome-4.2.0/css/font-awesome.min.css" type="text/css" />
+  
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Styles/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="Images/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+</head>
+<body class="loginbak">
+    <form runat="server" class="form-horizontal" role="form">
+            
+     <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManagerMain" runat="server" CombineScripts="False">
+            <Scripts>
+                 <asp:ScriptReference Path="~/Scripts/js/jquery-1.11.2.min.js" />
+                <asp:ScriptReference Path="~/Scripts/js/bootstrap.min.js" />
+             
+            </Scripts>
+        </ajaxToolkit:ToolkitScriptManager>
+        <header class="back2">
+
+            <div class="container">
+                <nav class="navbar navbar-default default">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--<a class="navbar-brand" href="#">Brand</a>-->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav mynav">
+                            <li><a href="#">home <span class="sr-only">(current)</span></a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">search</a></li>
+                            <li><a href="#">login</a></li>
+                            <li><a href="#">register</a></li>
+                            <li><a href="#">faqs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right" id="yellow-heading">
+                            <li><a href="#">get coursemapp</a></li>
+
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <!-- /.container-fluid -->
+                </nav>
+
+
+                <div class="col-sm-12" id="hip">
+                    <div class="media center-block middle-image">
+                        <div class="logo">
+                            <img src="../Images/logo9.png" class="img-responsive" />
+                            <!--	<h3>coursemap<span style="color:#ffc208;">p</span></h3>  -->
+                            <p>your guide to success</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="clearfix"></div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+        <div class="clearfix"></div>
+
+        <footer class="footer">
+
+            <div class="container">
+
+                <div class="foot-image">
+
+                    <div class="logo two">
+                        <img src="../Images/logo2.png" class="img-responsive opacity" />
+                        <h3>coursemap<span class="yellow">p</span></h3>
+
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+
+
+                    </div>
+                    <div class="extra">
+                        <p class="socialp"><span>&copy;2015 ! Privacy Policy | Powred By  <span class="trademark"></span></span></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+        <script>
+
+            $(document).ready(function (e) {
+
+                $(".toggle").click(function () {
+                    $(".list").toggle();
+                });
+
+                $(".toggle").click(function () {
+                    $(this).toggleClass("yellow");
+
+                });
+            });
+            $(function () {
+                // this will get the full URL at the address bar
+                var url = window.location.href;
+
+                // passes on every "a" tag 
+                $("#bs-example-navbar-collapse-1 a").each(function () {
+                    // checks if its the same on the address bar
+                    if (url == this.href.replace("#", "")) {
+                        $(this).closest("a").addClass("active");
+                    }
+                });
+
+            });
+
+        </script>
+        
+    </form>
+</body>
+</html>
